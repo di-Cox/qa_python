@@ -51,7 +51,7 @@ class TestBooksCollector:
 
         assert invalid_number not in collector.get_books_genre()
 
-    # Добавляем две одинаковые книги, проверка дублирования
+    # Добавляем две одинаковые книги, проверка дублирования.
     def test_add_new_book_does_not_add_duplicate_books(self):
         collector = BooksCollector()
 
